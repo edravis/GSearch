@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Google Testing</title>
+</head>
+<body>
+	
+	<script src="lib/goog.js"></script>
+	<script>
+		var model = {
+			module: 'search',
+			type: 'images',
+			version: '1',
+			query: 'potatoes+french',
+			lang: 'en'
+		};
+		var GS = GSFactory.init(model);
+	</script>
+</body>
+</html>
